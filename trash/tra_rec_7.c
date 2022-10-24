@@ -6,15 +6,16 @@ crie um programa em C que receba um vetor de números reais com 100 elementos.
 Escreva uma função recursiva que inverta ordem dos elementos presentes no vetor.
 */
 
-int inverte_ordem(int *v, int pos_a, int tam){
+void inverte_ordem(int *v, int pos_a, int pos_b){
     int aux = 0;
-    if (pos_a >= tam/2){
-        return v[tam];
+    if (pos_a >= pos_b/2){
+        v[pos_b];
+        return;
     }
     aux = v[pos_a];
-    v[pos_a] = v[tam -1 -pos_a];
-    v[tam -1 -pos_a] = aux;
-    return inverte_ordem(v, pos_a + 1, tam);
+    v[pos_a] = v[pos_b -1 -pos_a];
+    v[pos_b -1 -pos_a] = aux;
+    inverte_ordem(v, pos_a + 1, pos_b);
 
 }
 
