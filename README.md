@@ -2,7 +2,7 @@
 # [Exercícios](https://www.facom.ufu.br/~backes/material_comp.php)
 
 <details>
-  <summary>Recursão</summary>
+  <summary><h3>Recursão</h3></summary>
 
   
 :white_check_mark: 1. Faça uma função recursiva que calcule e retorne o fatorial de um número inteiro N.
