@@ -1,8 +1,9 @@
 
 # [Exercícios](https://www.facom.ufu.br/~backes/material_comp.php)
 
+<details>
+  <summary>Recursão</summary>
 
-###  Recursão:
   
 :white_check_mark: 1. Faça uma função recursiva que calcule e retorne o fatorial de um número inteiro N.
  
@@ -30,3 +31,5 @@ deve solicitar ao usuário os valores de $k$ e $n$ e imprimir o resultado da cha
 :x: 12. Faça uma função recursiva que receba um número inteiro positivo N e imprima todos os números naturais de 0 até N em ordem decrescente.
 
 :x: 13. Faça uma função recursiva que receba um número inteiro positivo par N e imprima todos os números pares de 0 até N em ordem crescente.
+  
+  </details>
