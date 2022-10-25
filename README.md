@@ -2,6 +2,26 @@
 # [Exercícios](https://www.facom.ufu.br/~backes/material_comp.php)
 
 <details>
+<summary><h3>Vetores e Matrizes</h3></summary>
+
+
+
+</details>
+<details>
+<summary><h3>Strings</h3></summary>
+
+:white_check_mark: 1. Faça um programa que então leia uma string e a imprima.
+
+:white_check_mark: 2. Crie um programa que calcula o comprimento de uma string (não use a função strlen).
+
+:white_check_mark: 3. Entre com um nome e imprima o nome somente se a primeira letra do nome for 'a' (maiúscula ou minúscula).
+
+:x: 4. Faça um programa que leia um nome e imprima as 4 primeiras letras do nome.
+
+:x: 5. Digite um nome, calcule e retorne quantas letras tem esse nome.
+
+</details>
+<details>
   <summary><h3>Recursão</h3></summary>
 
   
@@ -31,5 +51,13 @@ deve solicitar ao usuário os valores de $k$ e $n$ e imprimir o resultado da cha
 :x: 12. Faça uma função recursiva que receba um número inteiro positivo N e imprima todos os números naturais de 0 até N em ordem decrescente.
 
 :x: 13. Faça uma função recursiva que receba um número inteiro positivo par N e imprima todos os números pares de 0 até N em ordem crescente.
+
+:x: 14. Faça uma função recursiva que receba um número inteiro positivo par N e imprima todos os números pares de 0 até N em ordem decrescente.
+
+:x: 15. A função fatorial duplo é definida como o produto de todos os números naturais ímpares de 1 até algum número natural ímpar N. Assim, o fatorial duplo de 5 é $$5!! = 1 \cdot 3 \cdot 5 = 15$$ Faça uma função recursiva que receba um número inteiro positivo ímpar N e retorne o fatorial duplo desse número.
+
   
   </details>
+  
+  
+  
