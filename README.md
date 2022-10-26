@@ -8,7 +8,7 @@
 
 :white_check_mark: 16. Faça um programa que leia um vetor de 5 posições para números reais e, depois, um código inteiro. Se o código for zero, finalize o programa; se for 1, mostre o vetor na ordem direta; se for 2, mostre o vetor na ordem inversa. Caso, o codigo for diferente de 1 e 2 escreva uma mensagem informando que o código e inválido.
 
-:x: 17. Leia um vetor de 10 posições e atribua valor 0 para todos os elementos que possuírem valores negativos.
+:white_check_mark: 17. Leia um vetor de 10 posições e atribua valor 0 para todos os elementos que possuírem valores negativos.
 
 :x: 18. Faça um programa que leia um vetor de 10 números. Leia um número $x$. Conte os múltiplos de um número inteiro $x$ num vetor e mostre-os na tela.
 
@@ -23,7 +23,7 @@
 
 :white_check_mark: 3. Entre com um nome e imprima o nome somente se a primeira letra do nome for 'a' (maiúscula ou minúscula).
 
-:x: 4. Faça um programa que leia um nome e imprima as 4 primeiras letras do nome.
+:white_check_mark: 4. Faça um programa que leia um nome e imprima as 4 primeiras letras do nome.
 
 :x: 5. Digite um nome, calcule e retorne quantas letras tem esse nome.
 
