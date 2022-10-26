@@ -1,34 +1,26 @@
 /*
-A multiplicação de dois números inteiros pode ser feita através de somas sucessivas.
-Proponha um algoritmo recursivo multip_rec(n1, n2) que calcule a multiplicação de dois
-inteiros.
+Crie uma função recursiva que receba um número inteiro positivo N e imprima
+todos os números naturais de 0 até N em ordem crescente.
 */
 
 #include <stdio.h>
 #include <stdlib.h>
 
-int multi(int n1, int n2){
-    if (n2 > n1){
-        return multi(n2, n1);
+void crescente(int n, int i){
+    if (n < i){
+        return;
     }
-    if (n2 == 0){
-        return 0;
-    }else{
-        return n1 + multi(n1, n2-1);
-    }
-
+    printf("%i ", i);
+    i++;
+    crescente(n, i);
 }
 
-int main()
-{
-    int a = 0, b = 0;
-    int c = 0;
-    printf("Digite dois numeros\n>>>>");
-    scanf("%i %i", &a, &b);
-
-    c = multi(a, b);
-    printf("%i x %i = %i\n", a, b, c);
-
+int main(){
+    int x = 0;
+    printf("digite um numero \n");
+    scanf("%i", &x);
+    crescente(x, 0);
+    printf("\n");
     system("pause");
     return 0;
 }
