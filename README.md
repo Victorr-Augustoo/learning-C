@@ -4,6 +4,13 @@
 <details>
 <summary><h3>Vetores e Matrizes</h3></summary>
 
+:white_check_mark: 15. Leia um vetor com 20 números inteiros. Escreva os elementos do vetor eliminando elementos repetidos.
+
+:white_check_mark: 16. Faça um programa que leia um vetor de 5 posições para números reais e, depois, um código inteiro. Se o código for zero, finalize o programa; se for 1, mostre o vetor na ordem direta; se for 2, mostre o vetor na ordem inversa. Caso, o codigo for diferente de 1 e 2 escreva uma mensagem informando que o código e inválido.
+
+:x: 17. Leia um vetor de 10 posições e atribua valor 0 para todos os elementos que possuírem valores negativos.
+
+:x: 18. Faça um programa que leia um vetor de 10 números. Leia um número $x$. Conte os múltiplos de um número inteiro $x$ num vetor e mostre-os na tela.
 
 
 </details>
