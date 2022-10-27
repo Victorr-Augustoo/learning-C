@@ -20,9 +20,9 @@ void inverte_ordem(int *v, int pos_a, int pos_b){
 }
 
 int main(){
-    int vetor[10] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
-    inverte_ordem(vetor, 0, 10);
-    for (int i = 0; i <10; i++){
+    int vetor[5] = {1, 2, 3, 4, 5};
+    inverte_ordem(vetor, 0, 5);
+    for (int i = 0; i <5; i++){
         printf("%i ", vetor[i]);
     }
     printf("\n");
