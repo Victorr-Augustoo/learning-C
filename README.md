@@ -4,7 +4,7 @@
 <details>
 <summary><h3>Vetores e Matrizes</h3></summary>
 
-:x: 18. Faça um programa que leia um vetor de 10 números. Leia um número $x$. Conte os múltiplos de um número inteiro $x$ num vetor e mostre-os na tela.
+:white_check_mark: 18. Faça um programa que leia um vetor de 10 números. Leia um número $x$. Conte os múltiplos de um número inteiro $x$ num vetor e mostre-os na tela.
 
 :white_check_mark: 17. Leia um vetor de 10 posições e atribua valor 0 para todos os elementos que possuírem valores negativos.
 
@@ -36,7 +36,7 @@
 
 :x: 13. Faça uma função recursiva que receba um número inteiro positivo par N e imprima todos os números pares de 0 até N em ordem crescente.
 
-:x: 12. Faça uma função recursiva que receba um número inteiro positivo N e imprima todos os números naturais de 0 até N em ordem decrescente.
+:white_check_mark: 12. Faça uma função recursiva que receba um número inteiro positivo N e imprima todos os números naturais de 0 até N em ordem decrescente.
 
 :white_check_mark: 11. Faça uma função recursiva que receba um número inteiro positivo N e imprima todos os números naturais de 0 até N em ordem crescente.
 
