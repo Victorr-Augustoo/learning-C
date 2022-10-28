@@ -27,6 +27,29 @@
 
 :white_check_mark: 1. Faça um programa que então leia uma string e a imprima.
 </details>
+
+<details>
+<summary><h3>Structs</h3></summary>
+
+:x: Construa uma estrutura aluno com nome, número de matrícula e curso. Leia do usuário a informação de 5 alunos, armazene em vetor dessa estrutura e imprima os dados na tela.
+
+:x: 2. Implemente um programa que leia o nome, a idade e o endereço de uma pessoa e armazene os dados em uma estrutura.
+
+:x: 1. Escreva um trecho de código para fazer a criação dos novos tipos de dados conforme solicitado abaixo:
+* Horário: composto de hora, minutos e segundos.
+* Data: composto de dia, mês e ano.
+* Compromisso: composto de uma data, horário e texto que descreve o compromisso.
+</details>
+
+<details>
+<summary><h3>Funções</h3></summary>
+:x: 3. Faça uma função para verificar se um número é positivo ou negativo. Sendo que o valor de retorno será 1 se positivo, -1 se negativo e 0 se for igual a 0.
+
+:x: 2. Faça uma função que receba a data atual (dia, mês e ano em inteiro) e exiba-a na tela no formato textual por extenso. Exemplo: Data: 01/01/2000, imprimir: 1 de janeiro de 2000.
+
+:x: 1. Crie uma função que recebe como parâmetro um número inteiro e devolve o seu dobro.
+</details>
+
 <details>
   <summary><h3>Recursão</h3></summary>
 
@@ -64,4 +87,39 @@ deve solicitar ao usuário os valores de $k$ e $n$ e imprimir o resultado da cha
   </details>
   
   
-  
+  <details>
+<summary><h3>Ponteiros</h3></summary>
+
+:x: 3. Escreva um programa que contenha duas variáveis inteiras. Leia essas variáveis do teclado. Em seguida, compare seus endereços e exiba o conteúdo do maior endereço.
+
+:x: 2. Escreva um programa que contenha duas variáveis inteiras. Compare seus endereços e exiba o maior endereço.
+
+:x: 1. Escreva um programa que declare um inteiro, um real e um char, e ponteiros para inteiro, real, e char. Associe as variáveis aos ponteiros (use &). Modifique os valores de cada variável usando os ponteiros. Imprima os valores das variáveis antes e após a modificação.
+  </details>
+
+<details>
+<summary><h3>Alocação Dinâmica</h3></summary>
+:x: 3. Faça um programa que leia do usuário o tamanho de um vetor a ser lido e faça a alocação dinâmica de memória. Em seguida, leia do usuário seus valores e mostre quantos dos números são pares e quantos são ímpares.
+
+:x: 2. Faça um programa que leia do usuário o tamanho de um vetor a ser lido e faça a alocação dinâmica de memória. Em seguida, leia do usuário seus valores e imprima o vetor lido.
+
+:x: 1. Crie um programa que:
+(a) Aloque dinamicamente um array de 5 números inteiros,
+(b) Peça para o usuário digitar os 5 números no espaço alocado,
+(c) Mostre na tela os 5 números,
+(d) Libere a memória alocada.
+</details>
+
+<details>
+<summary><h3>Arquivos</h3></summary>
+
+:x: 3. Faça um programa que receba do usuário um arquivo texto e mostre na tela quantas letras são vogais.
+
+:x: 2. Faça um programa que receba do usuário um arquivo texto e mostre na tela quantas linhas esse arquivo possui.
+
+:x: 1. Escreva um programa que:
+(a) Crie/abra um arquivo texto de nome "arq.txt"
+(b) Permita que o usuário grave diversos caracteres nesse arquivo, até que o usuário entre com o caractere '0'
+(c) Feche o arquivo
+Agora, abra e leia o arquivo, caractere por caractere, e escreva na tela todos os caracteres armazenados.
+</details>
