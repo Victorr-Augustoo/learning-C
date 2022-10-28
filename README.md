@@ -31,7 +31,7 @@
 <details>
 <summary><h3>Structs</h3></summary>
 
-:x: Construa uma estrutura aluno com nome, número de matrícula e curso. Leia do usuário a informação de 5 alunos, armazene em vetor dessa estrutura e imprima os dados na tela.
+:x: 3. Construa uma estrutura aluno com nome, número de matrícula e curso. Leia do usuário a informação de 5 alunos, armazene em vetor dessa estrutura e imprima os dados na tela.
 
 :x: 2. Implemente um programa que leia o nome, a idade e o endereço de uma pessoa e armazene os dados em uma estrutura.
 
@@ -43,6 +43,7 @@
 
 <details>
 <summary><h3>Funções</h3></summary>
+
 :x: 3. Faça uma função para verificar se um número é positivo ou negativo. Sendo que o valor de retorno será 1 se positivo, -1 se negativo e 0 se for igual a 0.
 
 :x: 2. Faça uma função que receba a data atual (dia, mês e ano em inteiro) e exiba-a na tela no formato textual por extenso. Exemplo: Data: 01/01/2000, imprimir: 1 de janeiro de 2000.
@@ -99,15 +100,16 @@ deve solicitar ao usuário os valores de $k$ e $n$ e imprimir o resultado da cha
 
 <details>
 <summary><h3>Alocação Dinâmica</h3></summary>
+
 :x: 3. Faça um programa que leia do usuário o tamanho de um vetor a ser lido e faça a alocação dinâmica de memória. Em seguida, leia do usuário seus valores e mostre quantos dos números são pares e quantos são ímpares.
 
 :x: 2. Faça um programa que leia do usuário o tamanho de um vetor a ser lido e faça a alocação dinâmica de memória. Em seguida, leia do usuário seus valores e imprima o vetor lido.
 
 :x: 1. Crie um programa que:
-(a) Aloque dinamicamente um array de 5 números inteiros,
-(b) Peça para o usuário digitar os 5 números no espaço alocado,
-(c) Mostre na tela os 5 números,
-(d) Libere a memória alocada.
+* (a) Aloque dinamicamente um array de 5 números inteiros,
+* (b) Peça para o usuário digitar os 5 números no espaço alocado,
+* (c) Mostre na tela os 5 números,
+* (d) Libere a memória alocada.
 </details>
 
 <details>
@@ -118,8 +120,8 @@ deve solicitar ao usuário os valores de $k$ e $n$ e imprimir o resultado da cha
 :x: 2. Faça um programa que receba do usuário um arquivo texto e mostre na tela quantas linhas esse arquivo possui.
 
 :x: 1. Escreva um programa que:
-(a) Crie/abra um arquivo texto de nome "arq.txt"
-(b) Permita que o usuário grave diversos caracteres nesse arquivo, até que o usuário entre com o caractere '0'
-(c) Feche o arquivo
+* (a) Crie/abra um arquivo texto de nome "arq.txt"
+* (b) Permita que o usuário grave diversos caracteres nesse arquivo, até que o usuário entre com o caractere '0'
+* (c) Feche o arquivo
 Agora, abra e leia o arquivo, caractere por caractere, e escreva na tela todos os caracteres armazenados.
 </details>
