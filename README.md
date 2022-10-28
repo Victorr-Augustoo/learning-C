@@ -35,7 +35,7 @@
 
 :x: 2. Implemente um programa que leia o nome, a idade e o endereço de uma pessoa e armazene os dados em uma estrutura.
 
-:question question: 1. Escreva um trecho de código para fazer a criação dos novos tipos de dados conforme solicitado abaixo:
+:o: 1. Escreva um trecho de código para fazer a criação dos novos tipos de dados conforme solicitado abaixo:
 * Horário: composto de hora, minutos e segundos.
 * Data: composto de dia, mês e ano.
 * Compromisso: composto de uma data, horário e texto que descreve o compromisso.
