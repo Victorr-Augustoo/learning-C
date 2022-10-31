@@ -1,7 +1,6 @@
 /*
 Implemente um programa que leia o nome, a idade e o endereço de uma pessoa e armazene os dados em uma estrutura.
 */
-// not working properly
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -22,7 +21,8 @@ int main(){
     scanf("%i", &c.idade);
 
     printf("digite o endereco: \n");
-    scanf("%s", c.endereco);
+    setbuf(stdin, NULL);
+    fgets(c.endereco, 50, stdin);
 
     printf("informacoes digitadas: \n");
     printf("nome: %s\n", c.nome);

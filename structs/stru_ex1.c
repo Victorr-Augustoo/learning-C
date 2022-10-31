@@ -4,7 +4,7 @@ Escreva um trecho de código para fazer a criação dos novos tipos de dados con
 * Data: composto de dia, mês e ano.
 * Compromisso: composto de uma data, horário e texto que descreve o compromisso.
 */
-// not working properly
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -31,13 +31,21 @@ int main(){
     struct compromisso comp;
 
     printf("horario do compromisso hh:mm:ss \n");
-    scanf( " %i %i %i ", &comp.h.hora, &comp.h.minuto, &comp.h.segundo );
+    scanf("%i", &comp.h.hora);
+    scanf("%i", &comp.h.minuto);
+    scanf("%i", &comp.h.segundo);
 
+    // limpando o buffer
+    setbuf(stdin, NULL);
     printf("data do compromisso dd/mm/aa \n");
-    scanf( " %i %i %i ", &comp.d.dia, &comp.d.mes, &comp.d.ano);
-
+    scanf("%i", &comp.d.dia);
+    scanf("%i", &comp.d.mes);
+    scanf("%i", &comp.d.ano);
+    
+    // limpando o buffer
+    setbuf(stdin, NULL);
     printf("descreva o compromisso:\n");
-    scanf("%s", comp.texto);
+    fgets(comp.texto, 30, stdin);
 
     printf("informacoes:\nHora: %i:%i:%i\n", comp.h.hora, comp.h.minuto, comp.h.segundo);
     printf("Dia: %i/%i/%i\n", comp.d.dia, comp.d.mes, comp.d.ano);
