@@ -31,16 +31,13 @@ int main(){
     struct compromisso comp;
 
     printf("horario do compromisso hh:mm:ss \n");
-    setbuf(stdin, NULL);
     scanf( " %i %i %i ", &comp.h.hora, &comp.h.minuto, &comp.h.segundo );
 
     printf("data do compromisso dd/mm/aa \n");
-    setbuf(stdin, NULL);
     scanf( " %i %i %i ", &comp.d.dia, &comp.d.mes, &comp.d.ano);
 
     printf("descreva o compromisso:\n");
-    setbuf(stdin, NULL);
-    gets(comp.texto);
+    scanf("%s", comp.texto);
 
     printf("informacoes:\nHora: %i:%i:%i\n", comp.h.hora, comp.h.minuto, comp.h.segundo);
     printf("Dia: %i/%i/%i\n", comp.d.dia, comp.d.mes, comp.d.ano);

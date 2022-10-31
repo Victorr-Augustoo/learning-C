@@ -16,13 +16,13 @@ int main(){
     cadastro c;
 
     printf("digite o nome: \n");
-    gets(c.nome);
+    scanf("%s", c.nome);
 
     printf("digite a idade: \n");
     scanf("%i", &c.idade);
 
     printf("digite o endereco: \n");
-    gets(c.endereco);
+    scanf("%s", c.endereco);
 
     printf("informacoes digitadas: \n");
     printf("nome: %s\n", c.nome);
