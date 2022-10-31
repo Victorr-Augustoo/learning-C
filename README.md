@@ -41,9 +41,9 @@
 
 :x: 3. Construa uma estrutura aluno com nome, número de matrícula e curso. Leia do usuário a informação de 5 alunos, armazene em vetor dessa estrutura e imprima os dados na tela.
 
-:o: 2. Implemente um programa que leia o nome, a idade e o endereço de uma pessoa e armazene os dados em uma estrutura.
+:heavy_check_mark: 2. Implemente um programa que leia o nome, a idade e o endereço de uma pessoa e armazene os dados em uma estrutura.
 
-:o: 1. Escreva um trecho de código para fazer a criação dos novos tipos de dados conforme solicitado abaixo:
+:heavy_check_mark: 1. Escreva um trecho de código para fazer a criação dos novos tipos de dados conforme solicitado abaixo:
 * Horário: composto de hora, minutos e segundos.
 * Data: composto de dia, mês e ano.
 * Compromisso: composto de uma data, horário e texto que descreve o compromisso.
