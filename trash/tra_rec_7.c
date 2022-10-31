@@ -9,7 +9,7 @@ Escreva uma função recursiva que inverta ordem dos elementos presentes no veto
 void inverte_ordem(int *v, int pos_a, int pos_b){
     int aux = 0;
     if (pos_a >= pos_b/2){
-        v[pos_b];
+        v;
         return;
     }
     aux = v[pos_a];
@@ -20,9 +20,9 @@ void inverte_ordem(int *v, int pos_a, int pos_b){
 }
 
 int main(){
-    int vetor[5] = {1, 2, 3, 4, 5};
-    inverte_ordem(vetor, 0, 5);
-    for (int i = 0; i <5; i++){
+    int vetor[6] = {1, 2, 3, 4, 5, 30};
+    inverte_ordem(vetor, 0, 6);
+    for (int i = 0; i <6; i++){
         printf("%i ", vetor[i]);
     }
     printf("\n");
