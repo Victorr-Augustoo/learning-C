@@ -64,11 +64,11 @@
 <details>
   <summary><h3>Recursão</h3></summary>
 
-:x: 15. A função fatorial duplo é definida como o produto de todos os números naturais ímpares de 1 até algum número natural ímpar N. Assim, o fatorial duplo de 5 é $$5!! = 1 \cdot 3 \cdot 5 = 15$$ Faça uma função recursiva que receba um número inteiro positivo ímpar N e retorne o fatorial duplo desse número.
+:heavy_check_mark: 15. A função fatorial duplo é definida como o produto de todos os números naturais ímpares de 1 até algum número natural ímpar N. Assim, o fatorial duplo de 5 é $$5!! = 1 \cdot 3 \cdot 5 = 15$$ Faça uma função recursiva que receba um número inteiro positivo ímpar N e retorne o fatorial duplo desse número.
 
-:x: 14. Faça uma função recursiva que receba um número inteiro positivo par N e imprima todos os números pares de 0 até N em ordem decrescente.
+:heavy_check_mark: 14. Faça uma função recursiva que receba um número inteiro positivo par N e imprima todos os números pares de 0 até N em ordem decrescente.
 
-:x: 13. Faça uma função recursiva que receba um número inteiro positivo par N e imprima todos os números pares de 0 até N em ordem crescente.
+:heavy_check_mark: 13. Faça uma função recursiva que receba um número inteiro positivo par N e imprima todos os números pares de 0 até N em ordem crescente.
 
 :heavy_check_mark: 12. Faça uma função recursiva que receba um número inteiro positivo N e imprima todos os números naturais de 0 até N em ordem decrescente.
 
