@@ -23,7 +23,7 @@
 
 :x: 7. Crie um programa que compara duas strings (não use a função strcmp).
 
-:x: 6. Ler nome, sexo e idade. Se sexo for feminino e idade menor que 25, imprime o nome da pessoa e a palavra "ACEITA", caso contrário imprimir "NÃO ACEITA".
+:heavy_check_mark: 6. Ler nome, sexo e idade. Se sexo for feminino e idade menor que 25, imprime o nome da pessoa e a palavra "ACEITA", caso contrário imprimir "NÃO ACEITA".
 
 :heavy_check_mark: 5. Digite um nome, calcule e retorne quantas letras tem esse nome.
 
@@ -39,7 +39,7 @@
 <details>
 <summary><h3>Structs</h3></summary>
 
-:x: 3. Construa uma estrutura aluno com nome, número de matrícula e curso. Leia do usuário a informação de 5 alunos, armazene em vetor dessa estrutura e imprima os dados na tela.
+:heavy_check_mark: 3. Construa uma estrutura aluno com nome, número de matrícula e curso. Leia do usuário a informação de 5 alunos, armazene em vetor dessa estrutura e imprima os dados na tela.
 
 :heavy_check_mark: 2. Implemente um programa que leia o nome, a idade e o endereço de uma pessoa e armazene os dados em uma estrutura.
 
