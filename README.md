@@ -21,7 +21,7 @@
 
 :x: 8. Faça um programa que conte o número de 1's que aparecem em uma string. Exemplo: "0011001" -> 3.
 
-:x: 7. Crie um programa que compara duas strings (não use a função strcmp).
+:heavy_check_mark: 7. Crie um programa que compara duas strings (não use a função strcmp).
 
 :heavy_check_mark: 6. Ler nome, sexo e idade. Se sexo for feminino e idade menor que 25, imprime o nome da pessoa e a palavra "ACEITA", caso contrário imprimir "NÃO ACEITA".
 
