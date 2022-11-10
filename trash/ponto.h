@@ -1,7 +1,7 @@
 //arquivo ponto.h
 typedef struct ponto Ponto;
 //Cria um novo ponto
-Ponto* pto_cria(float x, float y); // <- tipo fopen
+Ponto* pto_cria(float x, float y); // <- como se fosse o "fopen"
 //libera um ponto
 void pto_libera(Ponto *p); // <- tipo fclose
 //acessa os valores "x" e "y" de um ponto
