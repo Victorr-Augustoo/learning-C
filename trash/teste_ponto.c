@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "ponto.h"
+#include "ponto.c"
 
 int main(){
     float d;
