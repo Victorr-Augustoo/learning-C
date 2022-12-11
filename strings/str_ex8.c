@@ -12,15 +12,13 @@ int main(){
     for (int i = 0; i < 10; i++){
         scanf(" %c", &a);
         str[i] = a;
+        if (a == '1'){
+            cont++;
+        }
     }
 
     str[10] = '\0';
 
-    for (int i = 0; str[i] != '\0'; i++){
-        if (str[i] == '1'){
-            cont++;
-        }
-    }
 
     printf("a string digitada eh %s\n", str);
     printf("o numero de 1 na string eh: %i\n", cont);
