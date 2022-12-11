@@ -15,21 +15,17 @@
 :heavy_check_mark: 15. Leia um vetor com 20 números inteiros. Escreva os elementos do vetor eliminando elementos repetidos.
 
 :heavy_check_mark: 1. Faça um programa que possua um vetor denominado A que armazene 6 número inteiros. O programa deve executar os seguintes passos:
-
-(a) Atribua os seguintes valores a esse vetor: 1, 0, 5, -2, -5, 7.
-
-(b) Armazene em uma variável inteira (simples) a soma entre os valores das posições A[0], A[1] e A[5] do vetor e mostre na tela esta soma.
-
-(c) Modifique o vetor na posição 4, atribuindo a esta posição o valor 100.
-
-(d) Mostre na tela cada valor do vetor A, um em cada linha.
+* (a) Atribua os seguintes valores a esse vetor: 1, 0, 5, -2, -5, 7.
+* (b) Armazene em uma variável inteira (simples) a soma entre os valores das posições A[0], A[1] e A[5] do vetor e mostre na tela esta soma.
+* (c) Modifique o vetor na posição 4, atribuindo a esta posição o valor 100.
+* (d) Mostre na tela cada valor do vetor A, um em cada linha.
 
 
 </details>
 <details>
 <summary><h3>Strings</h3></summary>
 
-:x: 8. Faça um programa que conte o número de 1's que aparecem em uma string. Exemplo: "0011001" -> 3.
+:heavy_check_mark: 8. Faça um programa que conte o número de 1's que aparecem em uma string. Exemplo: "0011001" -> 3.
 
 :heavy_check_mark: 7. Crie um programa que compara duas strings (não use a função strcmp).
 
